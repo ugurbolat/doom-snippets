@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+#name : org-ai-block-emacs
+#key : ai-em
+#contributor : Ugur Bolat
+# --
+* ${1:what}
+#+begin_ai
+[SYS]: You are an expert in emacs and emacs-lisp programming language.
+
+Always give emacs-lisp which be run programatically instead of manual UI operations.
+
+[ME]: $0
+#+end_ai

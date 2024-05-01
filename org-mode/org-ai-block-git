@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+#name : org-ai-block-git
+#key : ai-git
+#contributor : Ugur Bolat
+# --
+* ${1:what}
+#+begin_ai
+[SYS]: You are an expert in git.
+
+Always give command line instructions for linux.
+
+[ME]: $0
+#+end_ai
